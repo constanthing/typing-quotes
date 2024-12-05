@@ -1,0 +1,77 @@
+[
+  {
+    "quote": "const calculateSum = (a, b) => { return a + b; }; console.log(calculateSum(5, 10)); // Output: 15 // This simple JavaScript function calculates the sum of two numbers and logs the result.",
+    "author": "Unknown",
+    "origin": "JavaScript Example"
+  },
+  {
+    "quote": "class Car { constructor(brand, model) { this.brand = brand; this.model = model; } drive() { console.log(`Driving a ${this.brand} ${this.model}`); } } const myCar = new Car('Tesla', 'Model S'); myCar.drive(); // Output: Driving a Tesla Model S",
+    "author": "Unknown",
+    "origin": "JavaScript Example"
+  },
+  {
+    "quote": "let numbers = [1, 2, 3, 4, 5]; let doubledNumbers = numbers.map(num => num * 2); console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10] // This JavaScript code maps each element of an array to double its value.",
+    "author": "Unknown",
+    "origin": "JavaScript Example"
+  },
+  {
+    "quote": "func greetUser(name: String) -> String { return 'Hello, ' + name + '! Welcome to Swift programming.' } print(greetUser(name: 'Alice')) // Output: Hello, Alice! Welcome to Swift programming.",
+    "author": "Unknown",
+    "origin": "Swift Example"
+  },
+  {
+    "quote": "class Animal { var name: String var sound: String init(name: String, sound: String) { self.name = name self.sound = sound } func makeSound() { print('\\(name) says \\(sound)') } } let dog = Animal(name: 'Dog', sound: 'Woof') dog.makeSound() // Output: Dog says Woof",
+    "author": "Unknown",
+    "origin": "Swift Example"
+  },
+  {
+    "quote": "def fibonacci(n): if n <= 1: return n return fibonacci(n-1) + fibonacci(n-2) print(fibonacci(6)) # Output: 8 // This Python function returns the nth number in the Fibonacci sequence.",
+    "author": "Unknown",
+    "origin": "Python Example"
+  },
+  {
+    "quote": "def factorial(n): if n == 0: return 1 else: return n * factorial(n-1) print(factorial(5)) # Output: 120 // This Python function calculates the factorial of a number.",
+    "author": "Unknown",
+    "origin": "Python Example"
+  },
+  {
+    "quote": "import random def roll_dice(): return random.randint(1, 6) print(roll_dice()) # Output: Random number between 1 and 6. This Python function simulates rolling a die.",
+    "author": "Unknown",
+    "origin": "Python Example"
+  },
+  {
+    "quote": "public class HelloWorld { public static void main(String[] args) { System.out.println('Hello, World!'); } } // Output: Hello, World! This Java code prints a simple greeting message to the console.",
+    "author": "Unknown",
+    "origin": "Java Example"
+  },
+  {
+    "quote": "public class Person { private String name; private int age; public Person(String name, int age) { this.name = name; this.age = age; } public void greet() { System.out.println('Hello, ' + name + '. You are ' + age + ' years old.'); } } Person person = new Person('John', 25); person.greet(); // Output: Hello, John. You are 25 years old.",
+    "author": "Unknown",
+    "origin": "Java Example"
+  },
+  {
+    "quote": "using System; class Program { static void Main() { int[] numbers = {1, 2, 3, 4, 5}; int sum = 0; foreach (int number in numbers) { sum += number; } Console.WriteLine('Sum: ' + sum); } } // Output: Sum: 15 This C# code calculates the sum of an array of integers.",
+    "author": "Unknown",
+    "origin": "C# Example"
+  },
+  {
+    "quote": "using System; class Program { static void Main() { string name = 'Alice'; int age = 30; Console.WriteLine('Name: ' + name + ', Age: ' + age); } } // Output: Name: Alice, Age: 30 This C# program prints a person's name and age.",
+    "author": "Unknown",
+    "origin": "C# Example"
+  },
+  {
+    "quote": "using System; class Program { static void Main() { string[] words = {'Hello', 'World'}; Array.Reverse(words); foreach (var word in words) { Console.WriteLine(word); } } } // Output: World Hello This C# code reverses and prints an array of strings.",
+    "author": "Unknown",
+    "origin": "C# Example"
+  },
+  {
+    "quote": "var numbers = [1, 2, 3, 4, 5]; var total = numbers.reduce((acc, num) => acc + num, 0); console.log(total); // Output: 15 // This JavaScript code uses reduce to sum all the elements of an array.",
+    "author": "Unknown",
+    "origin": "JavaScript Example"
+  },
+  {
+    "quote": "let user = { name: 'Alice', age: 30 }; let { name, age } = user; console.log(name, age); // Output: Alice 30 // This JavaScript code demonstrates object destructuring.",
+    "author": "Unknown",
+    "origin": "JavaScript Example"
+  }
+]
